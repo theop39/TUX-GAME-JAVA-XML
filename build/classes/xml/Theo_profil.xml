@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<profil xmlns="http://myGame/tux" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://myGame/tux ../xsd/profil.xsd">
+    <nom>Theo</nom>
+    <avatar>avatarParDefaut.jpg</avatar>
+    <anniversaire>2022-12-15</anniversaire>
+    <parties>
+        <partie date="2022-12-15" trouvé="100">
+            <temps>8</temps>
+            <mot niveau="2">temple</mot>
+        </partie>
+    </parties>
+</profil>

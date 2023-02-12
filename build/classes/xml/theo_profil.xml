@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><profil xmlns="http://myGame/tux" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://myGame/tux ../xsd/profil.xsd">
+    <nom>theo</nom>
+    <avatar>avatarParDefaut.jpg</avatar>
+    <anniversaire>2022-12-06</anniversaire>
+    <parties>
+        <partie date="2022-12-06" trouvé="100">
+            <temps>5</temps>
+            <mot niveau="1">aile</mot>
+        </partie>
+        <partie date="2022-12-06" trouvé="100">
+            <temps>10</temps>
+            <mot niveau="2">temple</mot>
+        </partie>
+        <partie date="2022-12-06" trouvé="100">
+            <temps>17</temps>
+            <mot niveau="5">opportunisme</mot>
+        </partie>
+        <partie date="2022-12-06" trouvé="100">
+            <temps>6</temps>
+            <mot niveau="1">grue</mot>
+        </partie>
+        <partie date="2022-12-06" trouvé="100">
+            <temps>10</temps>
+            <mot niveau="2">balise</mot>
+        </partie>
+        <partie date="2022-12-06" trouvé="100">
+            <temps>10</temps>
+            <mot niveau="3">baguette</mot>
+        </partie>
+        <partie date="2022-12-06" trouvé="100">
+            <temps>9</temps>
+            <mot niveau="4">matelasser</mot>
+        </partie>
+        <partie date="2022-12-06" trouvé="100">
+            <temps>4</temps>
+            <mot niveau="1">lent</mot>
+        </partie>
+        <partie date="2022-12-06" trouvé="0">
+            <temps>0</temps>
+            <mot niveau="5">engendrement</mot>
+        </partie>
+        <partie date="2022-12-06" trouvé="0">
+            <temps>0</temps>
+            <mot niveau="3">troubler</mot>
+        </partie>
+        <partie date="2022-12-06" trouvé="100">
+            <temps>12</temps>
+            <mot niveau="3">baguette</mot>
+        </partie>
+        <partie date="2022-12-06" trouvé="0">
+            <temps>9</temps>
+            <mot niveau="3">baguette</mot>
+        </partie>
+        <partie date="2022-12-06" trouvé="0">
+            <temps>2</temps>
+            <mot niveau="3">troubler</mot>
+        </partie>
+        <partie date="2022-12-06" trouvé="0">
+            <temps>4</temps>
+            <mot niveau="3">visiteur</mot>
+        </partie>
+        <partie date="2022-12-06" trouvé="30">
+            <temps>600</temps>
+            <mot niveau="4">detenteurs</mot>
+        </partie>
+    <partie date="2022-12-06" trouvé="100"><temps>4</temps><mot niveau="1">aile</mot></partie><partie date="2022-12-06" trouvé="100"><temps>4</temps><mot niveau="1">grue</mot></partie><partie date="2022-12-06" trouvé="0"><temps>5</temps><mot niveau="4">matelasser</mot></partie><partie date="2022-12-22" trouvé="100"><temps>36</temps><mot niveau="3">baguette</mot></partie><partie date="2022-12-22" trouvé="100"><temps>25</temps><mot niveau="5">opportunisme</mot></partie><partie date="2022-12-22" trouvé="100"><temps>40</temps><mot niveau="5">circulatoire</mot></partie><partie date="2022-12-24" trouvé="100"><temps>42</temps><mot niveau="5">opportunisme</mot></partie><partie date="2022-12-28" trouvé="0"><temps>1</temps><mot niveau="4">bombardier</mot></partie><partie date="2022-12-28" trouvé="100"><temps>14</temps><mot niveau="4">matelasser</mot></partie><partie date="2022-12-28" trouvé="60"><temps>34</temps><mot niveau="4">bombardier</mot></partie><partie date="2022-12-28" trouvé="0"><temps>2</temps><mot niveau="4">bombardier</mot></partie><partie date="2022-12-29" trouvé="100"><temps>11</temps><mot niveau="3">visiteur</mot></partie><partie date="2022-12-30" trouvé="100"><temps>15</temps><mot niveau="3">visiteur</mot></partie><partie date="2022-12-30" trouvé="100"><temps>15</temps><mot niveau="3">baguette</mot></partie><partie date="2022-12-30" trouvé="0"><temps>1</temps><mot niveau="3">baguette</mot></partie><partie date="2022-12-31" trouvé="100"><temps>7</temps><mot niveau="1">aile</mot></partie><partie date="2022-12-31" trouvé="100"><temps>9</temps><mot niveau="1">test</mot></partie><partie date="2023-01-01" trouvé="0"><temps>1</temps><mot niveau="2">temple</mot></partie><partie date="2023-01-01" trouvé="100"><temps>8</temps><mot niveau="2">balise</mot></partie><partie date="2023-01-01" trouvé="0"><temps>4</temps><mot niveau="5">engendrement</mot></partie><partie date="2023-01-01" trouvé="100"><temps>6</temps><mot niveau="2">balise</mot></partie><partie date="2023-01-01" trouvé="100"><temps>10</temps><mot niveau="3">visiteur</mot></partie><partie date="2023-01-01" trouvé="0"><temps>1</temps><mot niveau="2">urgent</mot></partie><partie date="2023-01-01" trouvé="100"><temps>9</temps><mot niveau="2">balise</mot></partie><partie date="2023-01-01" trouvé="100"><temps>23</temps><mot niveau="3">troubler</mot></partie><partie date="2023-01-01" trouvé="100"><temps>10</temps><mot niveau="1">test</mot></partie><partie date="2023-01-01" trouvé="100"><temps>7</temps><mot niveau="1">aile</mot></partie><partie date="2023-01-01" trouvé="100"><temps>16</temps><mot niveau="2">urgent</mot></partie><partie date="2023-01-01" trouvé="100"><temps>10</temps><mot niveau="2">urgent</mot></partie><partie date="2023-01-01" trouvé="66"><temps>9</temps><mot niveau="2">temple</mot></partie><partie date="2023-01-23" trouvé="100"><temps>29</temps><mot niveau="2">abimes</mot></partie><partie date="2023-01-23" trouvé="50"><temps>8</temps><mot niveau="4">detenteurs</mot></partie><partie date="2023-01-23" trouvé="100"><temps>12</temps><mot niveau="4">matelasser</mot></partie></parties>
+</profil>

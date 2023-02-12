@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XmlSchema.xsd to edit this template
+-->
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns="http://myGame/tux/plateau"
+           targetNamespace="http://myGame/tux/plateau"
+           elementFormDefault="qualified">
+           
+           <!-- racine du document -->
+           
+           <xs:element name="plateau" type="Plateau"/>
+           
+           <!-- .................. Définition du type complexe Plateau .............................-->
+                      
+           <xs:complexType name="Plateau">
+               <xs:sequence>
+                   <xs:element name="dimensions" type="Dimensions"/>
+                   <xs:element name="mapping" type="Mapping"/>
+               </xs:sequence>
+           </xs:complexType>
+           
+          <!-- .................. Définition du type complexe Dimensions.............................-->
+
+           <xs:complexType name="Dimensions">
+               <xs:sequence>
+                   <xs:element name="height" type="Dimension"/>
+                   <xs:element name="width" type="Dimension"/>
+                   <xs:element name="depth" type="Dimension"/>
+               </xs:sequence>
+           </xs:complexType>
+          
+          <!-- .................. Définition du type complexe Mapping .............................-->
+          
+              <xs:complexType name="Mapping">
+               <xs:sequence>
+                   <xs:element name="textureBottom" type="TexturePath"/>
+                   <xs:element name="textureEast" type="TexturePath"/>
+                   <xs:element name="textureWest" type="TexturePath"/>
+                   <xs:element name="textureNorth" type="TexturePath"/>
+               </xs:sequence>
+           </xs:complexType>
+          
+          <!-- .................. Définition du type simple Dimension .............................-->
+          
+           <xs:simpleType name="Dimension">
+               <xs:restriction base="xs:int">
+                   <xs:minInclusive value="0"/>
+                   <xs:maxInclusive value="100"/>
+               </xs:restriction>
+           </xs:simpleType>
+          
+          
+          <!-- .................. Définition du type Simple TexturePath .............................-->
+                    
+           <xs:simpleType name="TexturePath">
+               <xs:restriction base="xs:string">
+                   <xs:pattern value="textures/[0-9a-z A-Z \- _]{1,}.(jpg|jpeg|png|gif|tif|psd|svg)"/>
+               </xs:restriction>
+           </xs:simpleType>
+
+</xs:schema>

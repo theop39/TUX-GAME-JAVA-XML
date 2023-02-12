@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XmlSchema.xsd to edit this template
+-->
+<xs:schema version="1.0"
+           targetNamespace="http://myGame/tux"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:tux="http://myGame/tux"
+           elementFormDefault="qualified">
+    
+           <!-- racine du document -->
+    
+           <xs:element name="dictionnaire" type="tux:Dictionnaire"/>
+           
+           <!-- Definition du type complexe dictionnaire -->
+           
+           <xs:complexType name="Dictionnaire">
+               <xs:sequence>
+                   <xs:element name="niveau" type="tux:Niveau" minOccurs="5" maxOccurs="5"/>
+               </xs:sequence>
+           </xs:complexType>
+           
+           <!-- Definition du type complexe niveau -->
+           
+           <xs:complexType name="Niveau">
+               <xs:sequence>
+                   <xs:element name="mot" type="tux:Mot" minOccurs="1" maxOccurs="unbounded"/>
+               </xs:sequence>
+               <xs:attribute name="difficultee" type="tux:Difficultee" use="required"/>
+           </xs:complexType>
+           
+           <!-- Definition du type simple mot  -->
+
+           <xs:simpleType name="Mot">
+               <xs:restriction base="xs:string">
+                   <xs:pattern value="[\p{L}]{3,}(-[\p{L}]{2,})*"/>
+                   <!-- minimum 3 lettres et peut être composé -->
+                   <!-- [\p{L}] = n'importe quelle lettre accentuée ou non (Majuscule ou Minuscule)-->
+               </xs:restriction>
+           </xs:simpleType>
+           
+           <!-- Definition du type simple Difficultee -->
+           
+           <xs:simpleType name="Difficultee">
+               <xs:restriction base="xs:int">
+                   <xs:minInclusive value="1"/>
+                   <xs:maxInclusive value="5"/>
+               </xs:restriction>
+           </xs:simpleType>
+           
+</xs:schema>

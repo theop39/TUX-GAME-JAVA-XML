@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<profil xmlns="http://myGame/tux" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://myGame/tux ../xsd/profil.xsd">
+    <nom>marie</nom>
+    <avatar>avatarParDefaut.jpg</avatar>
+    <anniversaire>2022-12-06</anniversaire>
+    <parties>
+        <partie date="2022-12-06" trouvé="100">
+            <temps>11</temps>
+            <mot niveau="3">visiteur</mot>
+        </partie>
+        <partie date="2022-12-06" trouvé="100">
+            <temps>13</temps>
+            <mot niveau="3">ablation</mot>
+        </partie>
+    </parties>
+</profil>

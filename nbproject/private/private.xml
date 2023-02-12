@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>src/game/Profil.java</url>
+            <bookmark id="1">
+                <name/>
+                <line>31</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/theo/Document/Images/FDD_XML/Tux/src/xml/profil.xml</file>
+            <file>file:/home/theo/Document/Images/FDD_XML/Tux/src/game/Room.java</file>
+            <file>file:/home/theo/Document/Images/FDD_XML/Tux/src/game/NiveauHandler.java</file>
+            <file>file:/home/theo/Document/Images/FDD_XML/Tux/src/game/EnvText.java</file>
+            <file>file:/home/theo/Document/Images/FDD_XML/Tux/src/img/avatarParDefaut.jpg</file>
+            <file>file:/home/theo/Document/Images/FDD_XML/Tux/src/game/Profil.java</file>
+            <file>file:/home/theo/Document/Images/FDD_XML/Tux/src/xslt/profil.xsl</file>
+            <file>file:/home/theo/Document/Images/FDD_XML/Tux/src/game/EditeurDico.java</file>
+            <file>file:/home/theo/Document/Images/FDD_XML/Tux/src/game/Jeu.java</file>
+            <file>file:/home/theo/Document/Images/FDD_XML/Tux/src/game/EnvTextMap.java</file>
+            <file>file:/home/theo/Document/Images/FDD_XML/Tux/src/css/style.css</file>
+            <file>file:/home/theo/Document/Images/FDD_XML/Tux/src/game/Dico.java</file>
+            <file>file:/home/theo/Document/Images/FDD_XML/Tux/src/img/conan.jpg</file>
+            <file>file:/home/theo/Document/Images/FDD_XML/Tux/src/xml/Lea_profil.xml</file>
+            <file>file:/home/theo/Document/Images/FDD_XML/Tux/src/game/Letter.java</file>
+            <file>file:/home/theo/Document/Images/FDD_XML/Tux/src/xml/Maxime_profil.xml</file>
+            <file>file:/home/theo/Document/Images/FDD_XML/Tux/src/img/linux-tux.gif</file>
+            <file>file:/home/theo/Document/Images/FDD_XML/Tux/src/game/JeuDevineLeMotOrdre.java</file>
+            <file>file:/home/theo/Document/Images/FDD_XML/Tux/src/aleatoire/Random.java</file>
+            <file>file:/home/theo/Document/Images/FDD_XML/Tux/src/xml/dico.xml</file>
+            <file>file:/home/theo/Document/Images/FDD_XML/Tux/src/xml/plateau.xml</file>
+            <file>file:/home/theo/Document/Images/FDD_XML/Tux/src/game/Chronometre.java</file>
+            <file>file:/home/theo/Document/Images/FDD_XML/Tux/src/game/Partie.java</file>
+            <file>file:/home/theo/Document/Images/FDD_XML/Tux/src/game/LanceurDeJeu.java</file>
+        </group>
+    </open-files>
+</project-private>

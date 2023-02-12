@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plateau
+ xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+ xmlns='http://myGame/tux/plateau'
+ xsi:schemaLocation='http://myGame/tux/plateau ../xsd/plateau.xsd'>
+    <dimensions>
+        <height>60</height>
+        <width>100</width> 
+        <depth>100</depth>
+    </dimensions>
+    <mapping>
+        <textureBottom>textures/fence1.png</textureBottom>
+        <textureEast>textures/fence0.png</textureEast>
+        <textureWest>textures/fence0.png</textureWest>
+        <textureNorth>textures/fence0.png</textureNorth>
+    </mapping>
+</plateau>

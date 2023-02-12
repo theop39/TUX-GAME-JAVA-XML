@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<profil xmlns="http://myGame/tux" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://myGame/tux ../xsd/profil.xsd">
+    <nom>Maxime</nom>
+    <avatar>conan.jpg</avatar>
+    <anniversaire>2023-02-12</anniversaire>
+    <parties>
+        <partie date="2023-02-12" trouvé="100">
+            <temps>5</temps>
+            <mot niveau="1">lent</mot>
+        </partie>
+        <partie date="2023-02-12" trouvé="100">
+            <temps>6</temps>
+            <mot niveau="2">abimes</mot>
+        </partie>
+        <partie date="2023-02-12" trouvé="100">
+            <temps>8</temps>
+            <mot niveau="1">dojo</mot>
+        </partie>
+        <partie date="2023-02-12" trouvé="100">
+            <temps>6</temps>
+            <mot niveau="2">balise</mot>
+        </partie>
+        <partie date="2023-02-12" trouvé="100">
+            <temps>14</temps>
+            <mot niveau="3">ablation</mot>
+        </partie>
+        <partie date="2023-02-12" trouvé="100">
+            <temps>14</temps>
+            <mot niveau="4">bombardier</mot>
+        </partie>
+        <partie date="2023-02-12" trouvé="100">
+            <temps>15</temps>
+            <mot niveau="5">opportunisme</mot>
+        </partie>
+    </parties>
+</profil>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><dictionnaire xmlns="http://myGame/tux" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://myGame/tux ../xsd/dico.xsd">
+    <!-- Attention !!!! longueur des mots dans le dictionnaire est toujours : 2n + 2 (où n = niveau difficulté) !!! -->
+    <!-- Ne pas mettre des mots de longueur != 2n + 2 (car le programme java se base sur ça-->
+    <niveau difficultee="1"> 
+        <mot>aile</mot>
+        <mot>grue</mot>
+        <mot>dojo</mot>
+        <mot>saut</mot>
+        <mot>lent</mot> 
+    <niveau difficultee="2"> 
+        <mot>abimes</mot>
+        <mot>balise</mot>
+        <mot>temple</mot>
+        <mot>urgent</mot>
+    </niveau>
+    <niveau difficultee="3"> 
+        <mot>ablation</mot>
+        <mot>baguette</mot>
+        <mot>troubler</mot>
+        <mot>visiteur</mot>
+    </niveau>
+    <niveau difficultee="4"> 
+        <mot>absolument</mot>
+        <mot>bombardier</mot>
+        <mot>detenteurs</mot>
+        <mot>matelasser</mot>
+    </niveau>
+    <niveau difficultee="5"> 
+        <mot>accumulateur</mot>
+        <mot>circulatoire</mot>
+        <mot>engendrement</mot>
+        <mot>opportunisme</mot>
+    </niveau>
+</dictionnaire>
