@@ -20,10 +20,7 @@ import java.io.*;
 import java.util.logging.*;
 
 
-/**
- *
- * @author Theo Patrac, Bastien Riado
- */
+
 public class Dico {
     
     //liste des mots par niveau
