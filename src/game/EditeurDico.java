@@ -27,10 +27,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.regex.PatternSyntaxException;
 
-/**
- *
- * @author Theo Patrac
- */
+
 public class EditeurDico {
     private Document doc;
   
