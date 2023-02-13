@@ -699,7 +699,9 @@ public abstract class Jeu {
             v2[1] = y2 - cCercle[1];
             
             double operande1 = v1[0] * v2[0] + v1[1] * v2[1];
-            double operande2 = Math.sqrt(Math.abs(v1[0])*Math.abs(v1[0]) + Math.abs(v1[1])+Math.abs(v1[1])) * Math.sqrt(Math.abs(v2[0])*Math.abs(v2[0])  +  Math.abs(v2[1])*Math.abs(v2[1]));        
+            double operande2 = Math.sqrt(Math.abs(v1[0])*Math.abs(v1[0]) 
+                                         + Math.abs(v1[1])+Math.abs(v1[1])) * Math.sqrt(Math.abs(v2[0])*Math.abs(v2[0])  
+                                         +  Math.abs(v2[1])*Math.abs(v2[1]));        
             
             double operande3 = operande1 / operande2;
             
